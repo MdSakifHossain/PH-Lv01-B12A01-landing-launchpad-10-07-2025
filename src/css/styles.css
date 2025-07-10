@@ -93,3 +93,61 @@ nav {
   font-weight: 700;
   font-size: 16px;
 }
+
+/* main tag styles */
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 116px 150px 15px;
+}
+
+/* action secition */
+
+.action-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 116px;
+}
+
+.action-text-column {
+  width: 517px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 23px;
+}
+
+.action-text-column h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  color: #252432;
+}
+
+.action-text-column p {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgba(37, 36, 50, 0.5);
+}
+
+.action-text-column button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  padding: 12px 36px;
+  border-radius: 10px;
+  background-color: rgb(78, 71, 255);
+  border: none;
+}
+
+.action-section img {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
