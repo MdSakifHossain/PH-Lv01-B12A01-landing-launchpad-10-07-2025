@@ -191,3 +191,122 @@ main {
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
 }
+
+/* =============================
+=> Review section START From here..   
+=================================== */
+
+.review-section {
+  margin-bottom: 137px;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* direct child of .review-section */
+.review-section-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  color: rgba(37, 36, 50, 1);
+}
+
+/* direct child of .review-section */
+.review-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*
+.review-card                    // The whole kit and kaboodle 📦
+    .star-container             // "How good was it?" meter ⭐
+        img x5                  // Those shiny gold things ✨
+    .review                     // What they actually said 🗣️
+        .review-title           // The punchline 💥
+        .review-description     // The full story 📖
+    .reviewers-handle           // Who's talkin'? 👤
+        img                     // Their tiny face 👀
+        .reviewers-details      // Their deets 🆔
+            .reviewer-name      // Name's the game 📛
+            .reviewing-time     // When they spilled the beans 🕰️
+*/
+/* review cards structure ☝️☝️ */
+.review-card {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 24px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  border-radius: 14px;
+  width: 366.67px;
+  border: 1px solid rgba(242, 237, 237, 1);
+}
+
+/* review-cards direct child */
+.star-container {
+  display: flex;
+  gap: 4px;
+}
+
+.star-container img {
+  width: 20px;
+}
+
+/* review-cards direct child */
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.review-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -2%;
+  color: rgba(30, 30, 30, 1);
+}
+
+.review-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(30, 30, 30, 1);
+}
+
+/* review-cards direct child */
+.reviewers-handle {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-start;
+}
+
+.reviewers-handle img {
+  width: 40px;
+  border-radius: 9999px;
+}
+
+.reviewer-name {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(117, 117, 117, 1);
+}
+
+.reviewing-time {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(179, 179, 179, 1);
+}
+
+/* =============================
+=> REVIew section is done.. Finally   
+=================================== */
