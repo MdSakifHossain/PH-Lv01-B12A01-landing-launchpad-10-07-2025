@@ -100,6 +100,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 116px 150px 15px;
+  background-color: rgb(244, 248, 254);
 }
 
 /* action secition */
@@ -310,3 +311,47 @@ main {
 /* =============================
 => REVIew section is done.. Finally   
 =================================== */
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* Focus section styles */
+
+.focus-section {
+  margin-bottom: 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  padding: 71px 150px;
+  border-radius: 14px;
+  background: #ffffff;
+}
+
+.focus-section h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: rgba(0, 0, 0, 1);
+}
+
+.focus-section p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.focus-section button {
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(78, 71, 255, 1);
+  color: #ffffff;
+}
+
+.focus-section img {
+  width: 840px;
+  border-radius: 48px;
+}
